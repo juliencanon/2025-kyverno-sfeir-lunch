@@ -1,0 +1,31 @@
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
+metadata:
+  name: add-prometheus-exporter
+spec:
+  rules:
+  - name: add-prometheus-exporter
+    match:
+      resources:
+        kinds:
+        - Deployment
+    mutate:
+      patchStrategicMerge:
+        spec:
+          template:
+            spec:
+              containers:
+              - name: prometheus-exporter
+                image: prom/node-exporter:v1.9.1
+                ports:
+                - containerPort: 9100
+                securityContext:
+                  privileged: true
+                volumeMounts:
+                - name: proc
+                  mountPath: /host/proc
+                  readOnly: true
+              volumes:
+              - name: proc
+                hostPath:
+                  path: /proc

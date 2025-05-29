@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: appli-version
+  namespace: appli
+spec:
+  containers:
+  - name: appli-container
+    image: nginx:1.27.5

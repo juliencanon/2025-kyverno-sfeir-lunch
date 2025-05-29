@@ -1,0 +1,17 @@
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
+metadata:
+  name: add-labels-namespace
+spec:
+  rules:
+  - name: add-labels
+    match:
+      resources:
+        kinds:
+        - Namespace
+    mutate:
+      patchStrategicMerge:
+        metadata:
+          labels:
+            +(mon-namespace): "{{request.object.metadata.name}}"
+            +(installe-par): "kyverno"

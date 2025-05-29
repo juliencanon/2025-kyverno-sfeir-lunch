@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: appli-deployment
+  labels:
+    app: appli
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: appli
+  template:
+    metadata:
+      labels:
+        app: appli
+    spec:
+      containers:
+      - name: appli-container
+        image: nginx:latest
+        ports:
+        - containerPort: 80
