@@ -7,7 +7,9 @@ function schoolSlides() {
     "02_Speaker.md",
     "03_40m.md",
     "05_Contexte.md",
-    "07_Conformite.md"
+    "30_Kyverno.md",
+    "40_Policy_reporter.md",
+    "99_Conclusion.md"
   ];
 }
 

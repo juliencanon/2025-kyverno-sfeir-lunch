@@ -5,7 +5,7 @@
 ##==##
 <!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
 ### Retour d'expérience
-![h-700](./assets/techready/arrivee_client.png)
+![h-700](./assets/techready/arrivee-client.png)
 
 ##==##
 <!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
@@ -13,10 +13,15 @@
 ![h-700](./assets/techready/team-mature.png)
 
 ##==##
-<!-- .slide: data-background="./assets/techready/bkgnd.png"-->
-### Au royame du Time to Market
-![h-800 center](./assets/techready/stress-celerite.png)
-
+<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+### Etat du cluster se dégrade avec le temps / turnover / celerité...
+![h-700](./assets/techready/arrivee_client.png)
+Notes: 
+- arrivée d'un junior dans l'entreprise
+- des resources utilisent des api deprecated (or elles vont être removes)
+- il reste plein de secrets obsoletes
+- ce à quoi on n'en pas pensé en amont
+- pas comme du bon vin, 
 
 ##==##
 <!-- .slide: data-background="./assets/techready/bkgnd.png"-->
@@ -34,25 +39,12 @@ requests limits tags owner Securitycontext privileged network registries supply 
 
 
 ##==##
-<!-- .slide: data-background="./assets/techready/bkgnd.png"-->
-### Cadre méthodologique 
-#### La base : continuer de sécuriser en amont
-- Pratiques devops
-- CI/CD
-- Pratiques devsecops
-- Fail fast
-- Shift left
-- Roue de Deming
-- Tests unitaires, non regression
-- Qualité du code
-- Analyse Sécurité statique et dynamique
-<!-- .element: class="list-fragment" -->
-
-
-
-##==##
 <!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
-### ... mais l'état du cluster se dégrade inévitablement !
-![h-1200](./assets/techready/sale-star2.png)
-
+### La conformité traite :
+- du respect des règles (réglementations et normes)
+- de la maîtrise des risques (légaux, financiers, réputation)
+- de la confiance et de l'intégrité
+- de l'efficacité opérationnelle (clarté, meilleure gouvernance)
+- de la culture d'entreprise
+<!-- .element: class="list-fragment" -->
 

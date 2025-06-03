@@ -16,7 +16,7 @@ pe 'helm install kyverno kyverno/kyverno -n kyverno --create-namespace'
 pe 'kubectl get namespaces'
 pe 'kubectl get deployment -n kyverno'
 pe 'kubectl get pods -n kyverno'
-pe 'kubectl get pods -n kyverno'
+#pe 'kubectl get pods -n kyverno'
 
 exit
 
