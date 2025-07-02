@@ -1,0 +1,35 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dev-app
+  namespace: development
+  labels:
+    app: dev-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dev-app
+  template:
+    metadata:
+      labels:
+        app: dev-app
+    spec:
+      hostNetwork: true  # Problème: utilise le réseau de l'hôte
+      hostPID: true      # Problème: utilise le PID de l'hôte
+      containers:
+      - name: dev-container
+        image: ubuntu:latest  # Problème: tag latest
+        command: ["sleep", "3600"]
+        securityContext:
+          privileged: true  # Problème: conteneur privilégié
+          runAsUser: 0     # Problème: root user
+        volumeMounts:
+        - name: host-root
+          mountPath: /host
+      volumes:
+      - name: host-root
+        hostPath:
+          path: /  # Problème: monte tout le système de fichiers de l'hôte
+

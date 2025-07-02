@@ -1,5 +1,5 @@
 
-<!-- .slide: data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Méthodologie :
 - Commencer tranquillement
 - Une première policy en Audit
@@ -11,13 +11,13 @@
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Processus d'amélioration continue
 ![h500](./assets/techready/roue-demming.png)
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Pod Security Standard
 - interdiction des capabilities
 - interdiction des escalations de privilege
@@ -27,13 +27,13 @@
 [https://kubernetes.io/docs/concepts/security/pod-security-standards/](https://kubernetes.io/docs/concepts/security/pod-security-standards/)
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### helm chart kyverno-policies
 ![h-800](./assets/techready/demo-time-3.png)
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Autres exemples de référentiels à implémenter selon les contraintes
 
 - NIST SP 800-190
@@ -47,7 +47,7 @@
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Cadre méthodologique
 #### Conserver toutes les pratiques en amont (non regression, fail fast, tests sécu).
 - Pratiques devops, pipelines CI/CD
@@ -61,7 +61,7 @@
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Take away
 - Un précieux allié pour mettre en place la conformité et son suivi dans le temps
 - Mettre en place les bons mécanisme by-design en amont
@@ -71,17 +71,14 @@
 <!-- .element: class="list-fragment" -->
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Kyverno, c'est de la dynamite ! 🧨
 ![h500](./assets/techready/dynamite.webp)
 
-##==##
-<!-- .slide: data-background="./assets/techready/end.png"-->
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Questions & Feedback
-![h500](./assets/techready/qr-code-openfeed800.png)
 Avez-vous des questions ?
 Notes:
 https://www.qrcode-monkey.com/fr/

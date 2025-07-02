@@ -1,20 +1,20 @@
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
-### Connaissance de l'écosystème Kubernetes
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
+### Pré-requis : Connaissance de l'écosystème Kubernetes
 ![h-600](./assets/techready/illus-cluster-2.png)
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Retour d'expérience
 ![h-700](./assets/techready/arrivee-client.png)
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Equipe mature appliquant les bonnes pratiques
 ![h-700](./assets/techready/team-mature.png)
+![h-700](./assets/lunch/outils-trans3.png)
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
-### Etat du cluster se dégrade avec le temps / turnover / celerité...
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ![h-700](./assets/techready/arrivee_client.png)
 Notes: 
 - arrivée d'un junior dans l'entreprise
@@ -24,7 +24,7 @@ Notes:
 - pas comme du bon vin, 
 
 ##==##
-<!-- .slide: data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Sources de problèmes
 ![h-1200 center](./assets/techready/nuage-de-mots-issues.png)
 Notes:
@@ -39,7 +39,7 @@ requests limits tags owner Securitycontext privileged network registries supply 
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### La conformité traite :
 - du respect des règles (réglementations et normes)
 - de la maîtrise des risques (légaux, financiers, réputation)

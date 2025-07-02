@@ -1,0 +1,27 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug-pod
+  namespace: development
+  labels:
+    app: debug
+spec:
+  containers:
+  - name: debug
+    image: busybox
+    command: ["sleep", "3600"]
+    securityContext:
+      capabilities:
+        add:
+        - SYS_ADMIN  # Problème: capability dangereuse
+        - NET_ADMIN  # Problème: capability dangereuse
+      privileged: true
+    volumeMounts:
+    - name: docker-sock
+      mountPath: /var/run/docker.sock
+  volumes:
+  - name: docker-sock
+    hostPath:
+      path: /var/run/docker.sock  # Problème: accès au socket Docker
+

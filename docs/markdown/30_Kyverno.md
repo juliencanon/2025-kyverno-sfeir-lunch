@@ -1,11 +1,11 @@
 
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Installation de Kyverno
 ![h-800 center](./assets/techready/demo-time.png)
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Big Picture Kubernetes
 ![h500](./assets/techready/k8s_archi1.png)
 Notes:
@@ -18,42 +18,42 @@ Les requêtes sont émises par :
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### "C'est là que les bactéries attaquent !"
 ![h500](./assets/techready/admission_schema.jpg)
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Kyverno : policy as code
 ![h-700](./assets/techready/police-kyverno.png)
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ![h-800](./assets/techready/demo-time-girl.png)
 Première policy
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Collection sur étagère
 ![h-800](./assets/techready/kyverno-website.png)
 [https://kyverno.io/policies/?policytypes=validate](https://kyverno.io/policies/)
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Profitez du joli terrain de jeu
 ![h-800](./assets/techready/kyverno-website.png)
 [https://playground.kyverno.io/#/](https://playground.kyverno.io/#/)
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Rendre visible. Auditez !
 ![h-800](./assets/techready/popeye.png)
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Kyverno ne se limite pas à un Admission Controller
 ![h500](./assets/techready/toolbox-trans.png)
 
@@ -67,13 +67,13 @@ Notes:
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Mutation des requêtes (rectification du contenu, ajout, offuscation, cryptage...)
 ![h-600](./assets/techready/mutating-demo.png)
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Generation de nouvelles resources
 ![h-600](./assets/techready/generating-demo.png)
 Notes:
@@ -82,7 +82,7 @@ Notes:
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Respectons notre supply chain
 ![h-600](./assets/techready/origine-image.png)
 
@@ -90,7 +90,7 @@ Notes:
 
 
 ##==##
-<!-- .slide: class="with-code-dark max-height" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="with-code-dark max-height" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Supply: Vérification des signatures d'images avec Notary
 ```yaml [2,12-13,16-17,26]
 apiVersion: policies.kyverno.io/v1alpha1
@@ -123,7 +123,7 @@ spec:
 
 
 ##==##
-<!-- .slide: class="with-code-dark max-height" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="with-code-dark max-height" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Supply: vérification des attestations de conformité SBOM
 
 ```yaml [2,4,12-15,22-23,26]
@@ -169,14 +169,14 @@ spec:
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Clean : 2 façons de faire du nettoyage
 ![h-800](./assets/techready/clean-policy.png)
 
 
 
 ##==##
-<!-- .slide: class="with-code-dark max-height" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="with-code-dark max-height" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Cleanup Policy sur expression cron
 ```yaml [2,4,11-13,19]
 apiVersion: kyverno.io/v2
@@ -203,7 +203,7 @@ spec:
 ```
 
 ##==##
-<!-- .slide: class="with-code-dark max-height" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="with-code-dark max-height" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Cleanup Policy et PropagationPolicy
 ```yaml [20-21]
 apiVersion: kyverno.io/v2
@@ -231,7 +231,7 @@ spec:
 
 
 ##==##
-<!-- .slide: class="with-code-dark max-height" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="with-code-dark max-height" data-background="./assets/lunch/bkgnd-lunch.png"-->
 #### Cleanup Policy sur présence de ttl (label)
 ```yaml [2,5-6]
 apiVersion: apps/v1
@@ -257,7 +257,7 @@ spec:
 
 
 ##==##
-<!-- .slide: data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Compatibilité entre Kyverno et VAP/MAP 
 
 Kubernetes propose depuis la 1.26 des resources natives :
@@ -275,7 +275,7 @@ Kubernetes propose depuis la 1.26 des resources natives :
 
 
 ##==##
-<!-- .slide: class="flex-row center" data-background="./assets/techready/bkgnd.png"-->
+<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
 ![h-800](./assets/techready/demo-time-boy.png)
 Kyverno test
 

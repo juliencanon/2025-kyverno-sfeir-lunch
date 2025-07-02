@@ -1,4 +1,4 @@
-<!-- .slide: data-background="./assets/techready/first.png"-->
+<!-- .slide: data-background="./assets/lunch/first.jpeg"-->
 Notes:
 
 Bienvenue à cette 1ère édition de techready
@@ -9,3 +9,9 @@ Qui utilise kubernetes en production ?<BR>
 Forme : Qui s'intéresse à la conformité ? <BR>
 Fond : Qui connaît déjà Kyverno ? Qui Utilise ?
 
+##==##
+<!-- .slide: data-background="./assets/lunch/300-roi.png"-->
+##==##
+<!-- .slide: data-background="./assets/lunch/200-dragon.png"-->
+##==##
+<!-- .slide: data-background="./assets/lunch/100-chateau.png"-->
