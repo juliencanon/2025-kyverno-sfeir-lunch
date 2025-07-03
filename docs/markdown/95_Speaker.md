@@ -1,4 +1,4 @@
-<!-- .slide: data-background="./assets/techready/bkgnd-speaker-professionnal2.png"-->
+<!-- .slide: data-background="./assets/lunch/bkgnd-speaker-pro.png"-->
 Notes:
 Titre : Architecte Cloud 
 26 ans d'expérience
@@ -7,11 +7,10 @@ nom julien canon
 
 
 ##==##
-<!-- .slide: data-background="./assets/techready/bkgnd-speaker-perso2.png"-->
+<!-- .slide: data-background="./assets/lunch/bkgnd-speaker-perso.png"-->
 Notes: 
 nuage de mots : architecte root ops bidouilleur cloud devops passionné 
 Rubik's cube / Oric 1 
-26 ans d'expérience
 image Onigiri
 nom : julien canon 
 -> Rootard passionné

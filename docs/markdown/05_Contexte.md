@@ -26,7 +26,7 @@ Notes:
 ##==##
 <!-- .slide: data-background="./assets/lunch/bkgnd-lunch.png"-->
 ### Sources de problèmes
-![h-1200 center](./assets/techready/nuage-de-mots-issues.png)
+![h-600 center](./assets/lunch/nuage-de-mots-issues.png)
 Notes:
 #### L'entropie du système augmente...
 - La définition des requests/limits manquent pour le CPU et la RAM
@@ -36,15 +36,4 @@ Notes:
 - Une nomenclature serait la bienvenue
 https://nuagedemots.co/
 requests limits tags owner Securitycontext privileged network registries supply trust attestation supply tags tags requests limits cpu memory PDB namespaces policy
-
-
-##==##
-<!-- .slide: class="flex-row center" data-background="./assets/lunch/bkgnd-lunch.png"-->
-### La conformité traite :
-- du respect des règles (réglementations et normes)
-- de la maîtrise des risques (légaux, financiers, réputation)
-- de la confiance et de l'intégrité
-- de l'efficacité opérationnelle (clarté, meilleure gouvernance)
-- de la culture d'entreprise
-<!-- .element: class="list-fragment" -->
 
